@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-display: swap;
+  font-family: 'Proxima Vara';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('/assets/fonts/ProximaVara.woff2') format('woff2-variations');
+}
+
+@theme {
+  --color-base: #23222b;
+  --color-surface: #2c2b35;
+  --color-accent: #f59e0b;
+  --color-muted: #9ca3af;
+  --color-border: #35343f;
+  --font-main: 'Proxima Vara', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    color: #e0e0e0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+}
